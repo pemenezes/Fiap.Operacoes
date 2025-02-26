@@ -40,7 +40,7 @@ namespace Fiap.Operacoes
                 Console.WriteLine("\n Comparação entre números");
                 Console.WriteLine($"Os números são iguais? {num1 == num2 }");
 
-                Console.WriteLine($"Os números são diferentes? {num1 != num2}");
+                Console.WriteLine($"Os números são diferentes!!! {num1 != num2}");
 
                 Console.WriteLine($"O primeiro numero é maior que o segundo? {num1 > num2}");
 
@@ -49,7 +49,8 @@ namespace Fiap.Operacoes
                 bool ambosPositivos = num1 > 0 && num2 > 0;
                 bool nenhumNegativo = !(num1 < 0 || num2 < 0);
                 Console.WriteLine($"Ambos positivos: {ambosPositivos} \n " +
-                    $"Nenhum negativo: {nenhumNegativo}");
+                    $"Nenhum negativo: {nenhumNegativo}"); 
+
 
 
 
